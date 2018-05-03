@@ -1,0 +1,193 @@
+{
+    "accessors": [
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10080,
+            "max": [
+                0.9919834136962891,
+                0.9976019263267517,
+                0.9836843609809875
+            ],
+            "min": [
+                -0.9923689961433411,
+                -0.9981673955917358,
+                -0.9985419511795044
+            ],
+            "name": "accessor_buffer_Icosphere.092_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10080,
+            "max": [
+                76.81012725830078,
+                111.2268295288086,
+                34.1242790222168
+            ],
+            "min": [
+                -178.43093872070312,
+                -67.41920471191406,
+                -248.7337646484375
+            ],
+            "name": "accessor_buffer_Icosphere.092_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 10368,
+            "max": [
+                10079
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Icosphere.092_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 10080,
+            "max": [
+                0.8791859745979309,
+                0.9999062488641357
+            ],
+            "min": [
+                9.375113586429507e-05,
+                9.363889694213867e-05
+            ],
+            "name": "accessor_buffer_Icosphere.092_TEXCOORD_0_0",
+            "type": "VEC2"
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 120960,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Icosphere.092_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 120960,
+            "byteOffset": 120960,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Icosphere.092_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 80640,
+            "byteOffset": 241920,
+            "byteStride": 8,
+            "name": "bufferView_buffer_Icosphere.092_TEXCOORD_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 20740,
+            "byteOffset": 322560,
+            "name": "bufferView_buffer_Icosphere.092_0",
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 343300,
+            "name": "buffer_Pink_Crystal_Field",
+            "uri": "buffer_Pink_Crystal_Field.bin"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "Material.001",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.08716674894094467,
+                    0.374557763338089,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Icosphere.092",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 0,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "Icosphere.002",
+            "rotation": [
+                -0.35152870416641235,
+                -0.3595791459083557,
+                -0.3670543134212494,
+                0.7825608849525452
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -50.30463790893555,
+                1.7073962688446045,
+                109.70238494873047
+            ]
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ]
+}
