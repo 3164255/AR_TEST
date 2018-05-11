@@ -1,0 +1,170 @@
+{
+    "accessors": [
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 70,
+            "max": [
+                0.8851320147514343,
+                0.786056399345398,
+                0.9010128974914551
+            ],
+            "min": [
+                -0.9859374165534973,
+                -0.9961072206497192,
+                -0.9016363024711609
+            ],
+            "name": "accessor_buffer_Icosphere.003_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 70,
+            "max": [
+                1.0850545167922974,
+                1.2512199878692627,
+                1.1758239269256592
+            ],
+            "min": [
+                -0.8614986538887024,
+                -1.1332122087478638,
+                -1.0699706077575684
+            ],
+            "name": "accessor_buffer_Icosphere.003_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 70,
+            "max": [
+                0.8791859745979309,
+                0.9999062488641357
+            ],
+            "min": [
+                9.375113586429507e-05,
+                9.363889694213867e-05
+            ],
+            "name": "accessor_buffer_Icosphere.003_TEXCOORD_0_0",
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 72,
+            "max": [
+                69
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Icosphere.003_0",
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 840,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Icosphere.003_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 840,
+            "byteOffset": 840,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Icosphere.003_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 560,
+            "byteOffset": 1680,
+            "byteStride": 8,
+            "name": "bufferView_buffer_Icosphere.003_TEXCOORD_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 148,
+            "byteOffset": 2240,
+            "name": "bufferView_buffer_Icosphere.003_0",
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2388,
+            "name": "buffer_Rocks_offset",
+            "uri": "buffer_Rocks_offset.bin"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Icosphere.003",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 0,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "Icosphere.002",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -0.4176812171936035,
+                0.743354320526123,
+                1.1360139846801758
+            ]
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ]
+}
